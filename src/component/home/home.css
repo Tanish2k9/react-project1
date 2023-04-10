@@ -1,0 +1,36 @@
+.home-input{
+    margin: 10px;
+    text-align: center;
+}
+.home-input input{
+    padding: 10px;
+    margin: 0 15px;
+    width:50%;
+}
+.home-input button{
+    padding: 10px;
+    background-color: blueviolet;
+    
+}
+.home-input a{
+    font-weight: bold;
+    color:bisque;
+}
+.home-input a:hover{
+    color:yellow;
+}
+.home-input button:active{
+    background-color: blue;
+}
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagi-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

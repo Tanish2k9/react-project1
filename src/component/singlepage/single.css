@@ -1,0 +1,104 @@
+.single{
+    background-color: gainsboro;
+}
+*{
+    box-sizing: border-box;
+}
+.single-poster{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.single-poster-info{
+    flex:9;
+}
+.single-poster-info span{
+    font-weight: bold;
+}
+.single-poster-image{
+    width:500px;
+    margin:10px 20px;
+}
+.single-poster-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.single-info{
+    display: flex;
+    flex-wrap: wrap;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.single-images{
+    overflow: hidden;
+    display: flex;
+    width:385px;
+    flex:8;
+}
+.single-images img{
+    width: 100%;
+}
+.single-desc{
+    padding: 15px;
+    text-align: center;
+    flex: 4;
+}
+.single-scroll{
+    position: relative;
+    margin: 15px;
+    text-align: center;
+}
+.btn-prev{
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.btn-next{
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.single-btn span{
+    box-shadow: 4px 4px 8px white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media  screen and (max-width:786px) {
+    .single-info{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .single-images{
+        overflow: hidden;
+        display: flex;
+        width:100%;
+        flex:8;
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+    .single-scroll{
+        position: relative;
+        margin: 15px auto;
+        width: 90%;
+        text-align: center;
+    }
+   
+    .single-poster-info h1{
+        font-size: 25px;
+    }
+}

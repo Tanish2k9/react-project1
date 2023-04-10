@@ -1,0 +1,22 @@
+.cards{
+    /* border:5px solid black; */
+    width:385px;
+    margin:15px;
+    text-align: center;
+    box-shadow: 1px 2px 4px black;
+}
+.cards img{
+    width: 100%;
+}
+
+.cards-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media screen and (max-width="768px"){
+    .cards{
+        width:285px;
+        text-align: center;
+    }
+}
